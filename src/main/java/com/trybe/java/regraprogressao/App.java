@@ -23,6 +23,9 @@ public class App {
 
       System.out.printf("Digite o peso da atividade %d: \n", iterator);
       int weight = Integer.parseInt(scanner.nextLine());
+
+      System.out.printf("Digite a nota obtida para %s: \n", activityName);
+      int grade = Integer.parseInt(scanner.nextLine());
     }
 
     scanner.close();
